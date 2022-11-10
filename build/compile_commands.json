@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspaces/cs225/build",
+  "command": "/usr/bin/clang++  -I/workspaces/cs225/release-f22-main/lab_avl/lib -I/workspaces/cs225/release-f22-main/lab_avl/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /workspaces/cs225/release-f22-main/lab_avl/tests/tests.cpp",
+  "file": "/workspaces/cs225/release-f22-main/lab_avl/tests/tests.cpp"
+},
+{
+  "directory": "/workspaces/cs225/build",
+  "command": "/usr/bin/clang++  -I/workspaces/cs225/release-f22-main/lab_avl/lib -I/workspaces/cs225/release-f22-main/lab_avl/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/testavl.dir/entry/testavl.cpp.o -c /workspaces/cs225/release-f22-main/lab_avl/entry/testavl.cpp",
+  "file": "/workspaces/cs225/release-f22-main/lab_avl/entry/testavl.cpp"
+},
+{
+  "directory": "/workspaces/cs225/build/lib",
+  "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /workspaces/cs225/release-f22-main/lab_avl/lib/lodepng/lodepng.cpp",
+  "file": "/workspaces/cs225/release-f22-main/lab_avl/lib/lodepng/lodepng.cpp"
+},
+{
+  "directory": "/workspaces/cs225/build/lib",
+  "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/binarytree.dir/binarytree/coloredout.cpp.o -c /workspaces/cs225/release-f22-main/lab_avl/lib/binarytree/coloredout.cpp",
+  "file": "/workspaces/cs225/release-f22-main/lab_avl/lib/binarytree/coloredout.cpp"
+},
+{
+  "directory": "/workspaces/cs225/build/lib",
+  "command": "/usr/bin/clang++  -I/workspaces/cs225/release-f22-main/lab_avl/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /workspaces/cs225/release-f22-main/lab_avl/lib/cs225/HSLAPixel.cpp",
+  "file": "/workspaces/cs225/release-f22-main/lab_avl/lib/cs225/HSLAPixel.cpp"
+},
+{
+  "directory": "/workspaces/cs225/build/lib",
+  "command": "/usr/bin/clang++  -I/workspaces/cs225/release-f22-main/lab_avl/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /workspaces/cs225/release-f22-main/lab_avl/lib/cs225/PNG.cpp",
+  "file": "/workspaces/cs225/release-f22-main/lab_avl/lib/cs225/PNG.cpp"
+}
+]
