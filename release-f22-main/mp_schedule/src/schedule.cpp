@@ -84,23 +84,24 @@ V2D clean(const V2D & cv, const V2D & student){
  * @param timeslots A vector of strings giving the total number of unique timeslots
  */
 V2D schedule(const V2D &courses, const std::vector<std::string> &timeslots){
-    V2D ret = std::vector<std::vector<std::string>>(timeslots.size(), std::vector<std::string>(0));
     Graph g;
-    for (auto i : courses) g.add(i[0]);
     std::unordered_map<std::string, std::unordered_set<std::string>> m;
     for (auto it : courses)
         for (unsigned i = 1; i < it.size(); ++ i)
             m[it[i]].insert(it[0]);
     
-    for (auto it : courses)
+    for (auto it : courses) {
+        g.add(it[0]);
         for (unsigned i = 1; i < it.size(); ++ i)
             for (auto j : m[it[i]])
                 if (j != it[0])
                     g.add(it[0], j);
-    
+    }
+
     auto v = g.get_vertices();
     do {
         if (g.schedule(v) <= timeslots.size()) {
+            V2D ret = std::vector<std::vector<std::string>>(timeslots.size(), std::vector<std::string>(0));
             for (unsigned i = 0; i < timeslots.size(); ++ i) 
                 ret[i].push_back(timeslots[i]);
             for (auto t : g.color) {
@@ -109,5 +110,6 @@ V2D schedule(const V2D &courses, const std::vector<std::string> &timeslots){
             return ret;
         }
     } while (std::next_permutation(v.begin(), v.end()));
+    
     return std::vector<std::vector<std::string>>(1, std::vector<std::string>(1, "-1"));
 }
