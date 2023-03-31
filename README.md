@@ -1,4 +1,4 @@
-# Description for Machine Project
+# Description for Machine Project (you can click the images for more information)
 
 
 
