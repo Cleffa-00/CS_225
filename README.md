@@ -1,6 +1,6 @@
-# Description for Machine Project (you can click the images for more information)
+# Description for Machine Project 
 
-
+You can click the images for more information.
 
 
 ## mp_traversals
