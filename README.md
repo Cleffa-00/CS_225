@@ -1,5 +1,17 @@
 # Description for Machine Project
 
+
+
+
+## mp_traversals
+
+Developed object-oriented programming skills through completing a programming assignment that involved implementing classes to traverse and manipulate images. Learned to use CMake and built custom makefiles. Implemented various image traversal techniques, including Depth First Search and Breadth First Search, and created an iterator to traverse through the images. Also gained experience in flood filling an image using ColorPicker and ImageTraversal classes. Developed a custom ColorPicker and used it to create a unique image.
+
+
+[![](https://courses.engr.illinois.edu/cs225/fa2022/assets/assignments/mps/4/bfsghost.gif)](https://courses.engr.illinois.edu/cs225/fa2022/mps/traversals/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://courses.engr.illinois.edu/cs225/fa2022/assets/assignments/mps/4/dfsghost.gif)](https://courses.engr.illinois.edu/cs225/fa2022/mps/traversals/)
+
+
+
 ## mp_stickers
 
 It involving the implementation of the Image and StickerSheet classes. Successfully utilized CMake and Catch2 to build and test code, while working with the HSL color space to transform hue, saturation, and luminance values of images. Developed skills in object-oriented programming, inheritance, and pointer arrays. Demonstrated ability to work with industry-standard tools and methodologies to create custom makefiles, test code, and create an image with stickers using the StickerSheet class.
@@ -9,13 +21,6 @@ It involving the implementation of the Image and StickerSheet classes. Successfu
 
 
 
-
-## mp_traversals
-
-Developed object-oriented programming skills through completing a programming assignment that involved implementing classes to traverse and manipulate images. Learned to use CMake and built custom makefiles. Implemented various image traversal techniques, including Depth First Search and Breadth First Search, and created an iterator to traverse through the images. Also gained experience in flood filling an image using ColorPicker and ImageTraversal classes. Developed a custom ColorPicker and used it to create a unique image.
-
-
-[![](https://courses.engr.illinois.edu/cs225/fa2022/assets/assignments/mps/4/bfsghost.gif)](https://courses.engr.illinois.edu/cs225/fa2022/mps/traversals/)    [![](https://courses.engr.illinois.edu/cs225/fa2022/assets/assignments/mps/4/dfsghost.gif)](https://courses.engr.illinois.edu/cs225/fa2022/mps/traversals/)
 
 ## mp_mosaics
 
