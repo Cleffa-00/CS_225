@@ -21,7 +21,7 @@ Developed object-oriented programming skills through completing a programming as
 
 Implemented a KD-Tree data structure for generating photomosaics in C++, as part of a machine project. The KD-Tree was used to efficiently search for the closest matching tile image to a given region of an original image based on average color. The project involved implementing two critical components: the KD-Tree class and the KDTileMapper class. The KD-Tree class was a templated class that could work with any positive, non-zero number of dimensions, and involved implementing several member functions such as smallerDimVal and shouldReplace. The KDTileMapper class was responsible for mapping TileImages to a MosaicCanvas based on their average color, and used the KD-Tree for finding the nearest neighbor. The project also included writing additional test cases to thoroughly test the code.
 
-[![](https://courses.engr.illinois.edu/cs225/fa2022/assets/assignments/mps/mp_mosaics/student_artwork/46.png)](https://courses.engr.illinois.edu/cs225/fa2022/mps/mosaics/)
+[![](https://courses.engr.illinois.edu/cs225/fa2022/assets/assignments/mps/mp_mosaics/student_artwork/67.png)](https://courses.engr.illinois.edu/cs225/fa2022/mps/mosaics/)
 
 
 
